@@ -17,4 +17,4 @@ environment.plugins.prepend('Provide',
 
 module.exports = environment
 
-import 'bootstrap';
+// import 'bootstrap';
