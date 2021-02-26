@@ -9,5 +9,8 @@
   </h5>
 <% end %>
 
+<%= cl_image_tag @cocktail.photo.key, height: 300, width: 400, crop: :fill %>
+
+
 <%= link_to "Add dose", new_cocktail_dose_path(@cocktail) %>
 <%= link_to "Back to index", cocktails_path %>

@@ -8,8 +8,9 @@
       ] %>
     <% @cocktails.each_with_index do |cocktail| %>
         <div class="col-12 col-md-4 mb-3">
-          <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('<%= images.sample %>')">
+          <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('<%= cocktail.photo.key %>')">
             <%= link_to cocktail.name, cocktail_path(cocktail) %>
+
           </div>
         </div>
     <% end %>
