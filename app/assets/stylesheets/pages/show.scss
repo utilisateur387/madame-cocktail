@@ -30,6 +30,7 @@ body > h1 {
 
   .doses-list {
     width: 100%;
+    max-width: 700px;
     display: flex;
     justify-content: space-between;
   }
@@ -51,10 +52,15 @@ body > h1 {
 
 .form {
   width: 100%;
+  margin: 0 auto;
+  // display: flex;
+  // justify-content: center;
 }
 
 .form-group {
   max-width: 700px;
+  margin: 0 auto;
+  padding-bottom: 10px
 }
 
 .gray {
