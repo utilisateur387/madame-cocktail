@@ -7,17 +7,18 @@ body {
 
 h1 {
   margin-bottom: 32px;
-  font-size: 68px;
+  font-size: 78px;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 54px;
   max-width: 700px;
   margin-bottom: 0;
 }
 
 p {
   letter-spacing: 1.5px;
+  font-size: 18px;
 }
 
 .btn-primary {
@@ -38,7 +39,7 @@ p {
   background-color: $dark-gray;
   display: flex;
   align-items: center;
-  height: 500px;
+  height: 600px;
   flex-direction: column;
   justify-content: center;
 
