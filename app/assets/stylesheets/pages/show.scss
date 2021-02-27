@@ -33,6 +33,11 @@ body h1 {
     max-width: 700px;
     display: flex;
     justify-content: space-between;
+    text-align: left;
+  }
+
+  .input {
+    max-width: 55%;
   }
 }
 
@@ -111,4 +116,5 @@ body h1 {
   .form-group {
     width: 100%;
   }
+
 }
