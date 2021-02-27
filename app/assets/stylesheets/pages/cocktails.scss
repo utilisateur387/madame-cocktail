@@ -48,6 +48,20 @@ p {
     margin: 30px 0px 38px 0px;
     max-width: 600px
   }
+
+  a {
+  color: white;
+  margin: 8px;
+  padding: 16px 28px;
+  border: solid 1px white;
+  border-radius: 32px;
+
+    &:hover {
+      background-color: white;
+      transition: 0.2s ease;
+      color: $dark-gray;
+    }
+  }
 }
 
 @media screen and (max-width: 576px) {
