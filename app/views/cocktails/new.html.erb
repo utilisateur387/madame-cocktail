@@ -1,8 +1,18 @@
-<h1>Create new cocktail</h1>
+<body class="body-create">
+  <div class="container">
+    <h1>Create new cocktail</h1>
 
-<%= simple_form_for(@cocktail) do |f| %>
-  <%= f.input :name %>
-  <%= f.input :photo, as: :file %>
-  <%= f.submit %>
-<% end %>
+    <div class="form">
+      <%= simple_form_for(@cocktail) do |f| %>
+        <%= f.input :name %>
+        <%= f.input :photo, as: :file %>
+        <%= f.submit class: "btn-submit"  %>
+      <% end %>
+    </div>
 
+    <div class="link">
+      <%= link_to "Back to index", cocktails_path, class: 'link' %>
+    </div>
+  </div>
+
+</body>

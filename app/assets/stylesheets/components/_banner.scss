@@ -10,7 +10,7 @@
 
   p {
     display: block;
-    max-width: 400px;
+    max-width: 580px;
     margin: 0 auto;
   }
 }
@@ -21,3 +21,10 @@
     height: 80vh;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .banner p {
+    max-width: 420px;
+  }
+}
+
