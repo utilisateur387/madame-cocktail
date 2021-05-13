@@ -23,6 +23,9 @@ class CocktailsController < ApplicationController
     end
   end
 
+  def test
+  end
+
   private
 
   def set_cocktail
